@@ -12,8 +12,15 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
-Add code Here
+def find_modulo(a, b):
+    return a % b
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+result = find_modulo(num1, num2)
+print("Modulo result:", result)
 
 ## Output
+<img width="378" height="294" alt="image" src="https://github.com/user-attachments/assets/3198e11b-505a-44a1-8cef-66b3dcfb8d92" />
 
 ## Result
+Thus,the program was implemented and executed successfully,and the required output was obtained.
